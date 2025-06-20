@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint vite-project",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "rm-template-data": "rm -rf ./src/components/template-components/"
   },
   "dependencies": {
     "react": "^19.1.0",
