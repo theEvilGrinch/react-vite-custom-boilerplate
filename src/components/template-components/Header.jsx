@@ -1,7 +1,7 @@
-function Header() {
+import { toggleTheme } from '../../utils/theme.js';
 
+function Header() {
   return (
-  <>
     <header>
       <h1>React + Vite Custom Boilerplate</h1>
       <nav aria-label="Main navigation">
@@ -14,16 +14,14 @@ function Header() {
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      <button data-toggle-theme="" aria-label="Toggle color theme">Change theme</button>
+      <button data-toggle-theme="" aria-label="Toggle color theme" onClick={toggleTheme}>Change theme</button>
 
       <p>
         This is the text content of header. It contains information about various topics and provides insights into
         different subjects. The article is well-structured and easy to read, making it accessible to a wide audience.
       </p>
-      <search data-pagefind=""></search>
     </header>
-  </>
-  )
-}
+  );
+} 
 
-export default Header
+export default Header;

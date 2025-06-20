@@ -17,9 +17,6 @@
 }
 
 :root {
-  color-scheme: light dark;
-  color: #242424;
-  background-color: #fafafa;
   font-family: core.$font-family-regular;
   line-height: 1.5;
   font-synthesis: none;
@@ -175,18 +172,4 @@ a.scroll-to-top {
   background-color: #fafafa;
   color: #242424;
   color-scheme: light;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #242424;
-    background-color: #fafafa;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: #fafafa;
-    background-color: #242424;
-  }
 }
