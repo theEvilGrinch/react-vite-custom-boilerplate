@@ -18,6 +18,8 @@ function Footer() {
 
         <img src="/html5-badge.png" width="229" height="64" alt="HTML5 badge" loading="lazy"/>
       </section>
+
+      <a href="#root" className="scroll-to-top">UP👆</a>
     </footer>
   );
 }

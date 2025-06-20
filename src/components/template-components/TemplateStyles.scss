@@ -16,6 +16,10 @@
   border: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   font-family: core.$font-family-regular;
   line-height: 1.5;
