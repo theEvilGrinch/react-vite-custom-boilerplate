@@ -95,7 +95,8 @@ header {
 main,
 aside,
 header,
-footer {
+footer,
+dialog {
   border: 1px solid transparent;
   border-image: linear-gradient(to left, #ffd62e, #fca311, #e34c26, #7e57c2, #646cff) 1;
   padding: 15px;
@@ -143,15 +144,25 @@ footer {
   }
 }
 
-dialog {
+dialog[data-cookie-dialog] {
   position: fixed;
   justify-self: center;
   bottom: 5px;
   padding: 15px;
+  font-family: core.$font-family-medium;
 
   button {
     display: block;
     margin: 15px auto 0;
+  }
+}
+
+@media (max-width: 480px) {
+  dialog[data-cookie-dialog] {
+    left: 10px;
+    right: 10px;
+    max-width: none;
+    bottom: 10px;
   }
 }
 
