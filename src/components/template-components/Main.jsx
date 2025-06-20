@@ -51,7 +51,7 @@ function Main() {
         reprehenderit
       </p>
     </main>
-  )
+  );
 }
 
-export default Main
+export default Main;
