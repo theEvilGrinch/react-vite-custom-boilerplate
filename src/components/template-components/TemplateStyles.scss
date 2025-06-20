@@ -1,4 +1,4 @@
-@use '/src/styles/core';
+@use "/src/styles/core";
 @use "/src/styles/reset";
 @use "/src/styles/fonts";
 
@@ -55,11 +55,10 @@ header {
 
   h1 {
     margin-bottom: 15px;
-   background: linear-gradient(to right, #ffd62e, #fca311, #e34c26, #7e57c2, #646cff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #ffd62e, #fca311, #e34c26, #7e57c2, #646cff);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
   }
 
   nav {
@@ -72,23 +71,25 @@ header {
     }
 
     li a {
-      color: #646CFF;
+      color: #646cff;
     }
   }
 
   button {
-    background-color: #646CFF;
-    color: #fff;
+    background-color: #646cff;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     margin-bottom: 15px;
     border-radius: 5px;
     cursor: pointer;
     transition: opacity, transform  0.3s ease;
+
     &:hover {
       opacity: 0.8;
     }
-    &:active{
+
+    &:active {
       transform: scale(0.9);
     }
   }
